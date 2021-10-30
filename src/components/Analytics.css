@@ -1,0 +1,124 @@
+.analytics {
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: white;
+}
+
+.analytics__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid lightgray;
+}
+
+.analytics__top > h3 {
+  font-weight: 700;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.analytics__top > p {
+  margin: 15px;
+  font-size: 17px;
+}
+
+.analytics__dateselect {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.analytics__dateselect > img {
+  object-fit: contain;
+  height: 20px !important;
+  width: 20px !important;
+  margin-right: 10px;
+}
+
+.analytics__dateselect > p {
+  margin-left: 10px;
+}
+
+.analytics__btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn_container {
+  text-align: center;
+  padding: 35px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  min-width: 300px;
+}
+
+.analytics__clicks {
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.analytics__clicks > h3 {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.link___text {
+  text-align: center;
+  background-color: lightgray;
+  padding: 120px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.analytics__social {
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.analytics__social > h3 {
+  font-size: 20px;
+}
+
+.analytics__social > p {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.analytics__bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.analytics__bottom > p {
+  font-size: small;
+  color: gray;
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.analytics__chart {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+.analytics__chart > h3 {
+  font-size: 19px;
+  margin-left: 20px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.chart_component {
+  margin-left: 100px;
+  padding-left: 180px;
+}

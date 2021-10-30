@@ -1,0 +1,240 @@
+.top_of_comp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.subheader__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+}
+
+.subheader__top > h4 {
+  margin-left: 20px;
+}
+
+.subheader__top > img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.subheader__top > img {
+  object-fit: contain;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.home__option {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  max-width: 500px;
+  min-width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.home__option__left {
+  display: flex;
+}
+
+.home__option__left > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.siz_dots,
+.down_image {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+}
+
+.siz_dots {
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+.down_image {
+  margin-right: 10px;
+}
+
+.add_block {
+  background-color: black;
+  max-width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.add_block > p {
+  color: white;
+}
+
+.bottom_button {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_left {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn_right {
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  color: green;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.home__right {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 250px;
+}
+
+.home__right > p {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mobile__screen {
+  cursor: pointer;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 700px;
+  min-height: 700px;
+  margin: 50px;
+  overflow-y: scroll;
+  border: 10px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1582573732277-c5444fa37391?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFpbmJvdyUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.mobile__screen > img {
+  object-fit: contain;
+  height: 120px !important;
+  width: 120px !important;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.mobile__screen > p {
+  margin: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: small;
+  padding: 30px;
+  background-color: azure;
+  opacity: 50%;
+  border-radius: 10px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  opacity: 80%;
+  border-radius: 12px;
+  margin: 12px;
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 30px;
+  min-height: 30px;
+  text-align: center;
+}
+
+.twitter > img {
+  object-fit: contain;
+  height: 30px !important;
+  width: 30px !important;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.twitter > h3 {
+  font-size: 15px;
+}
+
+.email {
+  background-color: white;
+  opacity: 80%;
+  border-radius: 12px;
+  margin: 12px;
+  max-width: 280px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.email > h3 {
+  margin: 10px;
+}
+
+.email > p {
+  padding: 5px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  text-align: start;
+  padding-left: 15px;
+}
+
+.mobile_logo_bottom > img {
+  object-fit: contain;
+  height: 100px !important;
+  width: 240px !important;
+  opacity: 20% !important;
+  margin: 30px !important;
+}
